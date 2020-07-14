@@ -15,9 +15,9 @@ public class TennisGameTest {
     private int player2Score;
     private String expectedScore;
 
-    public TennisGameTest(int player1Score, int player2Score, String expectedScore) {
-        this.player1Score = player1Score;
-        this.player2Score = player2Score;
+    public TennisGameTest(int firstPlayerScore, int secondPlayerScore, String expectedScore) {
+        this.player1Score = firstPlayerScore;
+        this.player2Score = secondPlayerScore;
         this.expectedScore = expectedScore;
     }
 
